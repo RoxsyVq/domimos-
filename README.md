@@ -1,17 +1,24 @@
 # domimos
 * Inicio-dormimos *
 
-## Ingreso de Datos
-- today 
+## Ingreso datos
 - weekday
 - vacation
-- otro
-## Proceso
-- pedir today
-- evaluar today  con weekday o vacation u otro 
- - si today es vacation o today no es weekday
-     - mostrar 1
-- si  no 
-    -   mostrar 0
+- puede_dormir
 
-* Fin *
+## Proceso
+
+Obtener valor weekday
+Obtener valor vacation
+
+Si vacation es verdadero
+	Mostrar 1 //Dormimos
+Si no
+	Si weekday es verdadero
+		Mostrar 0 //No Dormimos
+	Si no
+		Mostrar 1 //Dormimos
+	Fin si
+Fin si
+
+*Fin*
